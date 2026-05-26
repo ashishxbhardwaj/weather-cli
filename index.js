@@ -31,9 +31,9 @@ async function getweather(retries = 2) {
 
     console.log("Weather in", data.name);
     console.log("---------------");
-    console.log("Condition :", data.weather[0].main);
-    console.log("Temperature :", data.main.temp);
-    console.log("Feels Like :", data.main.feels_like);
+    console.log("Condition:", data.weather[0].main);
+    console.log("Temperature:", data.main.temp);
+    console.log("Feels Like:", data.main.feels_like);
     console.log("Minimum Temp:", data.main.temp_min);
     console.log("Maximum Temp:", data.main.temp_max);
   } catch (error) {
